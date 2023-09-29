@@ -6,7 +6,7 @@ import ButtonCard from '../components/ButtonCard'
 
 const ArticleSection = () => {
   return (
-    <div className='flex flex-col relative gap-8 items-center mt-40 mb-12'>
+    <div id='articles' className='pt-24 flex flex-col relative gap-8 items-center mb-12 w-full'>
         <Image src={vector} alt='vector' className='absolute -z-10 right-0 top-20'/>
         <p className='text-3xl text-center lg:text-left font-semibold'>Check out our latest articles</p>
         <p className="border-b-2 border-slate-800 w-14"></p>

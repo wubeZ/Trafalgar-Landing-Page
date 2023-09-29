@@ -6,7 +6,7 @@ import ButtonCard from "../components/ButtonCard";
 
 const ServiceSection = () => {
   return (
-    <div className="mt-40 flex flex-col items-center gap-8 justify-center">
+    <div id="service" className="pt-24 flex flex-col items-center gap-8 justify-center">
       <p className="text-center text-3xl lg:text-4xl font-semibold">Our services</p>
       <p className="border-b-2 border-slate-800 w-14 mx-auto"></p>
       <p className="font-extralight lg:text-lg px-12 text-left  lg:px-60 lg:text-center">

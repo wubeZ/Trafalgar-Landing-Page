@@ -1,5 +1,5 @@
 import React from 'react'
-import StartSection from './StartSection'
+import HeroSection from './HeroSection'
 import ServiceSection from './ServiceSection'
 import ProvideSection from './ProvideSection'
 import DownloadSection from './DownloadSection'
@@ -8,14 +8,14 @@ import ArticleSection from './ArticleSection'
 
 const HomePage = () => {
   return (
-    <>
-    <StartSection/>
+    <div className='flex flex-col items-center'>
+    <HeroSection/>
     <ServiceSection/>
     <ProvideSection/>
     <DownloadSection/>
     <TestimonalSection/>
     <ArticleSection/>
-    </>
+    </div>
 
   )
 }

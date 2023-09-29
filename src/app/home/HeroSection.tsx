@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import picture from "@/assets/images/trafalgar-header illustration 1.svg";
 
-const StartSection = () => {
+const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-0 mt-20 items-center lg:px-16">
+    <div id="home" className="flex flex-col pt-24 mb-0 md:mb-40 lg:flex-row justify-between gap-8 lg:gap-0 items-center lg:px-16">
       <div className="flex flex-col gap-8 mr-16 lg:mr-56 ml-8">
         <p className="text-3xl lg:text-5xl font-semibold">Virtual healthcare for you</p>
         <p className="text-xl font-extralight">
@@ -20,4 +20,4 @@ const StartSection = () => {
   );
 };
 
-export default StartSection;
+export default HeroSection;
