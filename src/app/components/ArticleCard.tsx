@@ -9,7 +9,7 @@ const ArticleCard = () => {
       <Image src={picture} alt="image" className="rounded-t-3xl" />
       <p className="text-lg font-semibold px-8">Herbal medicines that are safe for consumption</p>
       <p className="font-extralight px-8">Herbal medicine is very widely used at this time because of its very good for your health...</p>
-      <button className="w-40 relative pb-8 text-blue-600">Read More <span className="absolute top-1 right-1"><BsArrowRight/></span></button>
+      <button className="w-40 relative pb-8 text-blue-600 cursor-pointer hover:scale-110">Read More <span className="absolute top-1 right-1"><BsArrowRight/></span></button>
     </div>
   );
 };

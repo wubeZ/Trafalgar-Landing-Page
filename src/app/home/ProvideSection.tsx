@@ -6,14 +6,14 @@ import ButtonCard from "../components/ButtonCard";
 const ProvideSection = () => {
   return (
       <div className="flex flex-col pt-24 lg:flex-row justify-between gap-8 lg:gap-32 mt-40 px-4 lg:px-16">
-        <div className="">
+        <div className="px-8">
           <Image
             src={pictureSection}
             alt="picture Section"
             className="object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center gap-4 lg:px-9">
+        <div className="flex flex-col justify-center gap-4 px-6 lg:px-9">
           <p className="font-semibold text-2xl lg:text-3xl">
             Leading healthcare providers
           </p>

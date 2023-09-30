@@ -10,7 +10,7 @@ const DownloadSection = () => {
         id="app"
         className="flex flex-col pt-24 lg:flex-row-reverse justify-between gap-10 lg:gap-32 mt-24 lg:mt-40 px-4 lg:px-16"
       >
-        <div className="">
+        <div className="px-8">
           <Image
             src={pictureSection}
             alt="picture Section"
